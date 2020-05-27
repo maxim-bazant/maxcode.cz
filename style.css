@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.navbar-brand {
+    margin-left: 10px;
+}
+
+#english-flag {
+    padding-left: 100px;
+}
+
+#dropdownMenuButton {
+    color: #5a6268;
+}
+
+.mynav .nav-item {
+    margin-right: 20px;
+    font-size: 17px;
+}
+
+.nav-link:hover {
+    border-bottom: 2px solid white;
+}
+
+.active {
+    border-bottom: 2px solid white;
+}
+
+.dropdown-item:hover {
+    cursor: pointer;
+}
