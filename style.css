@@ -2,6 +2,9 @@
     margin: 0;
     padding: 0;
 }
+html {
+    scroll-behavior: smooth;
+}
 
 body {
     background: linear-gradient(to right, #222629, #474B4A);
@@ -41,7 +44,8 @@ nav {
 }
 
 .home_page_header {
-    margin: 20%;
+    margin-top: 20%;
+    margin-bottom: 20%;
     text-align: center;
     font-size: 35px;
     color: white;
@@ -61,4 +65,11 @@ nav {
     position: fixed;
     bottom: 0;
     width: 100%;
+}
+
+#info_text {
+    margin: 35%;
+    color: white;
+    font-size: 30px;
+    text-align: center;
 }
