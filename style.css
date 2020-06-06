@@ -110,8 +110,23 @@ nav {
 .card {
     display: inline-block;
     margin: 70px;
+    border: 4px solid #28a745;
+    transition: 0.5s ease;
 }
 
 .last_card {
     margin-bottom: 200px;
+}
+
+.card img {
+    border-bottom: 4px solid #28a745;
+}
+
+.card .btn {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.card:hover {
+    transform: scale(1.1);
 }
