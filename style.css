@@ -130,3 +130,25 @@ nav {
 .card:hover {
     transform: scale(1.1);
 }
+
+.scratch_painting {
+    margin: 50px;
+}
+
+.back_button {
+     margin-left: 50px;
+    margin-top: 100px;
+}
+
+.scratch_game_header {
+    color: white;
+    margin-left: 50px;
+    margin-top: 25px;
+}
+
+.game_text {
+    color: white;
+    font-size: 18px;
+    margin-top: 40px;
+    margin-left: 50px;
+}
