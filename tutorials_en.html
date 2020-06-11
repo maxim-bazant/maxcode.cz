@@ -11,34 +11,35 @@
 
     <link rel="stylesheet" href="style.css">
 
-    <title>Castle run</title>
+    <title>Pygame tutoriály</title>
 </head>
 <body>
     <header>
         <div class="navigation-bar">
                 <nav class="navbar navbar-expand-md navbar-dark bg-dark mynav sticky_navbar">
-                    <a href="index_cz.html" class ="navbar-brand">Max Code</a>
+                    <a href="index_en.html" class ="navbar-brand">Max Code</a>
                     <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarMenu">
                         <span class="navbar-toggler-icon"></span>
                     </button>
                     <div class="collapse navbar-collapse" id="navbarMenu">
                     <ul class="navbar-nav ml-auto">
                         <li class="nav-item" id="Home">
-                            <a href="index_cz.html" class="nav-link">Domů</a>
+                            <a href="index_en.html" class="nav-link">Home</a>
                         </li>
                         <li class="nav-item" id="Games">
-                            <a href="games_cz.html" class="nav-link active">Hry</a>
+                            <a href="games_en.html" class="nav-link">Games</a>
                         </li>
                         <li class="nav-item" id="Tutorials">
-                            <a href="tutorials_cz.html" class="nav-link">Pygame tutoriály</a>
+                            <a href="#" class="nav-link active">Pygame tutorials</a>
                         </li>
+
                     </ul>
                     <ul class="navbar-nav ml-auto">
                         <li id="english-flag">
-                            <a href="castle_run_en.html" class="nav-link"><img src="images/english-flag.png" alt="english flag"></a>
+                            <a href="index_en.html" class="nav-link"><img src="images/english-flag.png" alt="english flag"></a>
                         </li>
                         <li id="czech-flag active">
-                            <a href="castle_run_cz.html" class="nav-link"><img class="flag" src="images/czech-flag.png" alt="czech flag"></a>
+                            <a href="index_cz.html" class="nav-link"><img class="flag" src="images/czech-flag.png" alt="czech flag"></a>
                         </li>
                     </ul>
                     </div>
@@ -46,26 +47,19 @@
             </div>
     </header>
         <div class="main">
-            <h1 class="game_header"><u>Castle run</u></h1>
+            <h1 class="game_header"><u>Pygame tutorials</u></h1>
 
-            <video controls loop id="castle_run_init_video" width="1200" height="650">
-                <source src="videos/castle_run.mp4" type="video/mp4">
-
-                Your browser does not support the video tag.
-            </video>
-            <p class="audio_notification_text">*video obsahuje audio</p>
-
-            <p class="game_text">Bohužel tuto hru si zahrát nemůžete jelikož jazyk Python nelze kompilovat. Proto výše přikládám video<br>
-            Hru si ale můžete naprogramovat díky mému tutoriálu: <a href="#">castle-run tutoriál</a></p>
-            <p class="game_text">Grafiku až na postavu rytíře jsem udělal já.<br>
-            Hudbu udělal: Radim Janoušek.</p>
-
-            <p class="game_text">Tuto hru jsem vytvořil v roce 2020.</p>
-
-            <a class="btn btn-success btn-lg back_button" href="games_cz.html" role="button">Zpátky ke hrám</a>
+            <div class="card last_card" style="width: 18rem;">
+                <img src="images/castle_run.png" class="card-img-top" alt="Pygame castle run">
+                <div class="card-body">
+                    <h5 class="card-title">Castle run tutorial</h5>
+                    <p class="card-text">(2020)</p>
+                    <a href="#" class="btn btn-success stretched-link">Learn more</a>
+                </div>
+            </div>
         </div>
         <footer>
-            <div class="footer">
+            <div class="footer sticky-footer">
                 <p>© maxcode.cz. All Rights Reserved</p>
             </div>
         </footer>

@@ -171,6 +171,13 @@ nav {
 #castle_run_init_video{
     margin-left: 40px;
     margin-top: 60px;
-    margin-bottom: 60px;
+    margin-bottom: 2px;
     border: 4px solid #28a745;
+}
+
+.audio_notification_text {
+    color: white;
+    font-size: 15px;
+    margin-bottom: 50px;
+    margin-left: 40px;
 }
