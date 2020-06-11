@@ -47,19 +47,39 @@
             </div>
     </header>
         <div class="main">
-            <h1 class="game_header"><u>Pygame tutoriály</u></h1>
-
-            <div class="card last_card" style="width: 18rem;">
-                <img src="images/castle_run.png" class="card-img-top" alt="Pygame castle run">
-                <div class="card-body">
-                    <h5 class="card-title">Castle run tutoriál</h5>
-                    <p class="card-text">(2020)</p>
-                    <a href="#" class="btn btn-success stretched-link">Zjistit více</a>
+            <!-- Side navigation -->
+            <div class="sidenav">
+                <h1><u>Tutoriály</u></h1>
+                <div class="links_sidenav">
+                    <a href="#" class="active_sidebar_link">Castle run tutoriál<span class="dot"></span></a>
+                    <a href="#">Seznámení s pygame</a>
+                    <a href="#">Pohyb pozadí</a>
+                    <a href="#">Pohyb a animace postavičky</a>
+                    <a href="#">Překážky a kolize</a>
                 </div>
             </div>
+
+            <h1 class="game_header">Castle run tutoriál</h1>
+            <p class="game_text">V tomto tutoriálu si napragramujeme hru<a href="castle_run_cz.html">castle run.</a> <br>
+            <br>
+            Hra funguje tak, že pozadí se donekonečna pohybuje. <br>
+            Rytíř (hráč) se musí vyhýbat šípům, buďto šíp nadskočí nebo udělá kotrmelec a šíp ho nadletí jak můžete vidět ve videu níže.</p>
+
+            <video controls loop id="castle_run_init_video" width="1200" height="650">
+                <source src="videos/castle_run.mp4" type="video/mp4">
+
+                Your browser does not support the video tag.
+            </video>
+            <p class="audio_notification_text">*video obsahuje audio</p>
+
+            <p class="game_text">Hráč ovládá rytíře pomocí kláves S (udělá kotrmelec) a mezerník (vyskočí). Hra se postupně zrychluje.<br>
+                Můžete si vypnout nebo zapnout hudbu.</p>
+
+            <a class="btn btn-success btn-lg back_button" href="games_cz.html" role="button">Přejít na další tutoriál</a>
+
         </div>
         <footer>
-            <div class="footer sticky-footer">
+            <div class="footer">
                 <p>© maxcode.cz. All Rights Reserved</p>
             </div>
         </footer>
