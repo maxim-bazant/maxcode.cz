@@ -11,7 +11,7 @@
 
     <link rel="stylesheet" href="style.css">
 
-    <title>Castle run</title>
+    <title>Seznámení s pygame</title>
 </head>
 <body>
     <header>
@@ -24,22 +24,22 @@
                     <div class="collapse navbar-collapse" id="navbarMenu">
                     <ul class="navbar-nav ml-auto">
                         <li class="nav-item" id="Home">
-                            <a href="index_en.html" class="nav-link">Home</a>
+                            <a href="index_cz.html" class="nav-link">Domů</a>
                         </li>
                         <li class="nav-item" id="Games">
-                            <a href="games_en.html" class="nav-link active">Game</a>
+                            <a href="games_cz.html" class="nav-link">Hry</a>
+                        </li>
+                        <li class="nav-item" id="Tutorials">
+                            <a href="tutorials_cz.html" class="nav-link active">Pygame tutoriály</a>
                         </li>
 
-                        <li class="nav-item" id="Tutorials">
-                            <a href="tutorials_en.html" class="nav-link">Pygame tutorials</a>
-                        </li>
                     </ul>
                     <ul class="navbar-nav ml-auto">
                         <li id="english-flag">
-                            <a href="castle_run_en.html" class="nav-link"><img src="images/english-flag.png" alt="english flag"></a>
+                            <a href="introduction_to_pygame_en.html" class="nav-link"><img src="images/english-flag.png" alt="english flag"></a>
                         </li>
                         <li id="czech-flag active">
-                            <a href="castle_run_cz.html" class="nav-link"><img class="flag" src="images/czech-flag.png" alt="czech flag"></a>
+                            <a href="introduction_to_pygame_cz.html" class="nav-link"><img class="flag" src="images/czech-flag.png" alt="czech flag"></a>
                         </li>
                     </ul>
                     </div>
@@ -47,25 +47,21 @@
             </div>
     </header>
         <div class="main">
-            <h1 class="game_header"><u>Castle run</u></h1>
+            <!-- Side navigation -->
+            <div class="sidenav">
+                <h1><u>Tutoriály</u></h1>
+                <div class="links_sidenav">
+                    <a href="introduction_to_pygame_cz.html">Seznámení s pygame<span class="dot"></span></a>
+                </div>
+                <p class="game_text">další tutoriály pro <br>Vás připravujeme</p>
+            </div>
+            <h1 class="game_header">připravujeme pro Vás...</h1>
 
-            <video controls loop id="castle_run_init_video" width="1200" height="650">
-                <source src="videos/castle_run.mp4" type="video/mp4">
-                Your browser does not support the video tag.
-            </video>
-            <p class="audio_notification_text">*video contains audio</p>
+            <a class="btn btn-success btn-lg back_button" href="castle_run_tutorial_init_cz.html" role="button">Zpět ke castle run tutoriál</a>
 
-            <p class="game_text">Unfortunately, you can't play this game because Python can't be compiled. That's why I'm attaching a video above<br>
-                But you can program the game thanks to my tutorial: <a href="castle_run_tutorial_init_en.html">castle run tutorial</a></p>
-            <p class="game_text">I made the graphics except for the figure of a knight.<br>
-            Music was made by: Radim Janoušek.</p>
-
-            <p class="game_text">I creted this game in 2020</p>
-
-            <a class="btn btn-success btn-lg back_button" href="games_en.html" role="button">Back to games</a>
         </div>
         <footer>
-            <div class="footer">
+            <div class="footer sticky-footer">
                 <p>© maxcode.cz. All Rights Reserved</p>
             </div>
         </footer>
