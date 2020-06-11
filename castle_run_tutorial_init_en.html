@@ -11,7 +11,7 @@
 
     <link rel="stylesheet" href="style.css">
 
-    <title>Pygame tutoriály</title>
+    <title>Castle run tutorial</title>
 </head>
 <body>
     <header>
@@ -30,16 +30,16 @@
                             <a href="games_en.html" class="nav-link">Games</a>
                         </li>
                         <li class="nav-item" id="Tutorials">
-                            <a href="#" class="nav-link active">Pygame tutorials</a>
+                            <a href="tutorials_en.html" class="nav-link active">Pygame tutorials</a>
                         </li>
 
                     </ul>
                     <ul class="navbar-nav ml-auto">
                         <li id="english-flag">
-                            <a href="index_en.html" class="nav-link"><img src="images/english-flag.png" alt="english flag"></a>
+                            <a href="castle_run_tutorial_init_en.html" class="nav-link"><img src="images/english-flag.png" alt="english flag"></a>
                         </li>
                         <li id="czech-flag active">
-                            <a href="index_cz.html" class="nav-link"><img class="flag" src="images/czech-flag.png" alt="czech flag"></a>
+                            <a href="castle_run_tutorial_init_cz.html" class="nav-link"><img class="flag" src="images/czech-flag.png" alt="czech flag"></a>
                         </li>
                     </ul>
                     </div>
@@ -47,19 +47,39 @@
             </div>
     </header>
         <div class="main">
-            <h1 class="game_header"><u>Pygame tutorials</u></h1>
-
-            <div class="card last_card" style="width: 18rem;">
-                <img src="images/castle_run.png" class="card-img-top" alt="Pygame castle run">
-                <div class="card-body">
-                    <h5 class="card-title">Castle run tutorial</h5>
-                    <p class="card-text">(2020)</p>
-                    <a href="castle_run_tutorial_init_en.html" class="btn btn-success stretched-link">Learn more</a>
+            <!-- Side navigation -->
+            <div class="sidenav">
+                <h1><u>Tutoriály</u></h1>
+                <div class="links_sidenav">
+                    <a href="#" class="active_sidebar_link">Castle run tutorial<span class="dot"></span></a>
+                    <a href="#">Introduction to pygame</a>
+                    <a href="#">Motion background</a>
+                    <a href="#">Movement and animation of the character</a>
+                    <a href="#">Obsticles and collision</a>
                 </div>
             </div>
+
+            <h1 class="game_header">Castle run tutoriál</h1>
+            <p class="game_text">In this tutorial we will program the game<a href="castle_run_cz.html">castle run.</a> <br>
+            <br>
+            The game works so that the background moves indefinitely. <br>
+            The knight (player) must avoid the arrows, either the arrow jumps or makes a somersault and the arrow flies over him as you can see in the video below.</p>
+
+            <video controls loop id="castle_run_init_video" width="1200" height="650">
+                <source src="videos/castle_run.mp4" type="video/mp4">
+
+                Your browser does not support the video tag.
+            </video>
+            <p class="audio_notification_text">*video contains audio</p>
+
+            <p class="game_text">The player controls the knight using the S keys (makes a somersault) and the space bar (jumps). The game is gradually accelerating.<br>
+            You can turn the music on or off.</p>
+
+            <a class="btn btn-success btn-lg back_button" href="games_cz.html" role="button">Go to the next tutorial</a>
+
         </div>
         <footer>
-            <div class="footer sticky-footer">
+            <div class="footer">
                 <p>© maxcode.cz. All Rights Reserved</p>
             </div>
         </footer>
