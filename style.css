@@ -187,7 +187,6 @@ nav {
     position: absolute;
     right: 0;
     margin-top: 250px;
-    margin-right: 120px;
     overflow-x: hidden; /* Disable horizontal scroll */
     padding-top: 20px;
     border: 2px solid #28a745;
