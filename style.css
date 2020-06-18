@@ -20,18 +20,12 @@ body {
 .navbar-brand {
     margin-left: 10px;
 }
-#dropdownMenuButton {
-    color: #5a6268;
-}
 .mynav .nav-item {
     margin-right: 20px;
     font-size: 20px;
 }
 .navbar-brand {
     font-size: 20px;
-}
-.dropdown-menu a:hover{
-    color: white !important;
 }
 
 .nav-link:hover {
@@ -181,47 +175,37 @@ nav {
     margin-bottom: 50px;
     margin-left: 40px;
 }
-/* The sidebar menu */
 .sidenav {
-    z-index: 1; /* Stay on top */
-    position: absolute;
-    right: 0;
-    margin-top: 250px;
-    overflow-x: hidden; /* Disable horizontal scroll */
-    padding-top: 20px;
-    border: 2px solid #28a745;
     background-color: #343a40;
+    position: fixed;
+    z-index: 1;
+    top: 200px;
+    right: 20px;
+    overflow-x: hidden;
+    padding: 8px 0;
+    border-bottom: 4px solid #28a745;
+    border-left: 4px solid #28a745;
+}
+.sidenav h1 {
+    color: white;
+    margin: 20px;
 }
 
+.sidenav p {
+    color: white;
+    font-size: 20px;
+    margin: 30px;
+    border-top: 4px solid white;
+}
 
-/* The navigation menu links */
-.sidenav .links_sidenav a {
-    padding: 20px 8px 15px 16px;
+.sidenav a {
+    padding: 6px 8px 6px 30px;
     text-decoration: none;
     font-size: 25px;
-    color: white;
+    color: #9B9B9B;
     display: block;
-    border-bottom: 2px solid white;
-}
-.links_sidenav {
-    margin: 20px;
 }
 
-/* When you mouse over the navigation links, change their color */
 .sidenav a:hover {
-    color: #28a745;
-}
-
-.sidenav h1 {
-    margin: 20px;
     color: white;
-}
-
-.dot {
-    height: 15px;
-    width: 15px;
-    background-color: #28a745;
-    border-radius: 50%;
-    display: inline-block;
-    margin-left: 13px;
 }
