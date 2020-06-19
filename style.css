@@ -177,7 +177,7 @@ nav {
 }
 .sidenav {
     background-color: #343a40;
-    position: fixed;
+    position: absolute;
     z-index: 1;
     top: 200px;
     right: 20px;
