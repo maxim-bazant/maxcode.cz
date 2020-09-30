@@ -18,7 +18,7 @@
 
     <link rel="stylesheet" href="style.css">
 
-    <title>Pygame tutoriály</title>
+    <title>Space shooter tutorial</title>
 </head>
 <body>
     <header>
@@ -37,16 +37,16 @@
                             <a href="games_en.html" class="nav-link">Games</a>
                         </li>
                         <li class="nav-item" id="Tutorials">
-                            <a href="#" class="nav-link active">Pygame tutorials</a>
+                            <a href="tutorials_en.html" class="nav-link active">Pygame tutorials</a>
                         </li>
 
                     </ul>
                     <ul class="navbar-nav ml-auto">
                         <li id="english-flag">
-                            <a href="tutorials_en.html" class="nav-link"><img src="images/english-flag.png" alt="english flag"></a>
+                            <a href="space_shooter_tutorial_init_en.html" class="nav-link"><img src="images/english-flag.png" alt="english flag"></a>
                         </li>
                         <li id="czech-flag active">
-                            <a href="tutorials_cz.html" class="nav-link"><img class="flag" src="images/czech-flag.png" alt="czech flag"></a>
+                            <a href="space_shooter_tutorial_init_cz.html" class="nav-link"><img class="flag" src="images/czech-flag.png" alt="czech flag"></a>
                         </li>
                     </ul>
                     </div>
@@ -54,27 +54,45 @@
             </div>
     </header>
         <div class="main">
-            <h1 class="game_header"><u>Pygame tutorials</u></h1>
+            <!-- Side navigation -->
+            <div class="sidenav">
+                <h1>Tutorials</h1>
+                <a href="https://github.com/maxim-bazant/space-shooter/blob/Tutorial_01/game.py">Tutorial 1 - <br>
+                    Introduction to pygame</a>
+                <a href="https://github.com/maxim-bazant/space-shooter/blob/Tutorial_02/game.py">Tutorial 2 - <br>
+                    Space ship movement <br>
+                    and shooting</a>
+                <a href="https://github.com/maxim-bazant/space-shooter/blob/Tutorial_03/game.py">Tutorial 3 - <br>
+                    Meteorit</a>
+                <a href="https://github.com/maxim-bazant/space-shooter/blob/Tutorial_04/game.py">Tutorial 4 - <br>
+                    Explosion and collision</a>
+                <a href="https://github.com/maxim-bazant/space-shooter/blob/Tutorial_05/game.py"><u>Tutorial 5 - </u><br>
+                    score and Earth</a>
+                <a href="https://github.com/maxim-bazant/space-shooter/blob/Tutorial_06/game.py"><u>Tutorial 6 - </u><br>
+                    Game over text and restart</a>
+            </div>
 
-            <div class="card last_card" style="width: 18rem;">
-                <img src="images/castle_run.png" class="card-img-top" alt="Pygame castle run">
-                <div class="card-body">
-                    <h5 class="card-title">Castle run tutorial</h5>
-                    <p class="card-text">(2020)</p>
-                    <a href="castle_run_tutorial_init_en.html" class="btn btn-success stretched-link">Learn more</a>
-                </div>
-            </div>
-            <div class="card last_card" style="width: 18rem;">
-                <img src="images/space_shooter.png" class="card-img-top" alt="Pygame Space shooter">
-                <div class="card-body">
-                    <h5 class="card-title">Space shooter tutorial</h5>
-                    <p class="card-text">(2020)</p>
-                    <a href="#" class="btn btn-success stretched-link">Learn more</a>
-                </div>
-            </div>
+            <h1 class="game_header"><u>Space shooter tutorial</u></h1>
+            <p class="game_text">In this tutorial we will program the game<a href="#">space shooter.</a> <br>
+            <br>
+            The game works so that the background moves indefinitely. <br>
+            The sapce ship (player) must avoid the meteors to protect the Earth.</p>
+
+            <video controls loop id="castle_run_init_video" width="1200" height="650">
+                <source src="#" type="video/mp4">
+
+                Your browser does not support the video tag.
+            </video>
+            <p class="audio_notification_text">*video contains audio</p>
+
+            <p class="game_text">The player controls the knight using the A keys (moves left), D (moves right) and the space bar (shoots). The game is gradually accelerating.<br>
+            You can turn the music on or off.</p>
+
+            <a class="btn btn-success btn-lg back_button" href="https://github.com/maxim-bazant/space-shooter/blob/Tutorial_01/game.py" role="button">Go to the first tutorial</a>
+
         </div>
         <footer>
-            <div class="footer sticky-footer">
+            <div class="footer">
                 <p>© maxcode.cz. All Rights Reserved</p>
             </div>
         </footer>
