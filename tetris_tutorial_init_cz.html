@@ -18,35 +18,35 @@
 
     <link rel="stylesheet" href="style.css">
 
-    <title>Pygame tutoriály</title>
+    <title>tetris tutoriál</title>
 </head>
 <body>
     <header>
         <div class="navigation-bar">
                 <nav class="navbar navbar-expand-md navbar-dark bg-dark mynav sticky_navbar">
-                    <a href="index_en.html" class ="navbar-brand">Max Code</a>
+                    <a href="index_cz.html" class ="navbar-brand">Max Code</a>
                     <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarMenu">
                         <span class="navbar-toggler-icon"></span>
                     </button>
                     <div class="collapse navbar-collapse" id="navbarMenu">
                     <ul class="navbar-nav ml-auto">
                         <li class="nav-item" id="Home">
-                            <a href="index_en.html" class="nav-link">Home</a>
+                            <a href="index_cz.html" class="nav-link">Domů</a>
                         </li>
                         <li class="nav-item" id="Games">
-                            <a href="games_en.html" class="nav-link">Games</a>
+                            <a href="games_cz.html" class="nav-link">Hry</a>
                         </li>
                         <li class="nav-item" id="Tutorials">
-                            <a href="#" class="nav-link active">Pygame tutorials</a>
+                            <a href="tutorials_cz.html" class="nav-link active">Pygame tutoriály</a>
                         </li>
 
                     </ul>
                     <ul class="navbar-nav ml-auto">
                         <li id="english-flag">
-                            <a href="tutorials_en.html" class="nav-link"><img src="images/english-flag.png" alt="english flag"></a>
+                            <a href="tetris_tutorial_init_en.html" class="nav-link"><img src="images/english-flag.png" alt="english flag"></a>
                         </li>
                         <li id="czech-flag active">
-                            <a href="tutorials_cz.html" class="nav-link"><img class="flag" src="images/czech-flag.png" alt="czech flag"></a>
+                            <a href="tetris_tutorial_init_cz.html" class="nav-link"><img class="flag" src="images/czech-flag.png" alt="czech flag"></a>
                         </li>
                     </ul>
                     </div>
@@ -54,43 +54,27 @@
             </div>
     </header>
         <div class="main">
-            <h1 class="game_header"><u>Pygame tutorials</u></h1>
 
-            <div class="card last_card" style="width: 18rem;">
-                <img src="images/castle_run.png" class="card-img-top" alt="Pygame castle run">
-                <div class="card-body">
-                    <h5 class="card-title">Castle run tutorial</h5>
-                    <p class="card-text">(2020)</p>
-                    <a href="castle_run_tutorial_init_en.html" class="btn btn-success stretched-link">Learn more</a>
-                </div>
-            </div>
-            <div class="card last_card" style="width: 18rem;">
-                <img src="images/space_shooter.png" class="card-img-top" alt="Pygame Space shooter">
-                <div class="card-body">
-                    <h5 class="card-title">Space shooter tutorial</h5>
-                    <p class="card-text">(2020)</p>
-                    <a href="space_shooter_tutorial_init_en.html" class="btn btn-success stretched-link">Learn more</a>
-                </div>
-            </div>
-            <div class="card last_card" style="width: 18rem;">
-                <img src="images/mouse_trap.png" class="card-img-top" alt="Pygame Mouse Trap">
-                <div class="card-body">
-                    <h5 class="card-title">Mouse Trap tutorial</h5>
-                    <p class="card-text">(2021)</p>
-                    <a href="mouse_trap_tutorial_init_en.html" class="btn btn-success stretched-link">Learn more</a>
-                </div>
-            </div>
-            <div class="card last_card" style="width: 18rem;">
-                <img src="images/tetris_image.png" class="card-img-top" alt="Pygame Tetris">
-                <div class="card-body">
-                    <h5 class="card-title">Tetris tutorial</h5>
-                    <p class="card-text">(2021)</p>
-                    <a href="tetris_tutorial_init_en.html" class="btn btn-success stretched-link">Learn more</a>
-                </div>
-            </div>
+            <h1 class="game_header"><u>Tetris tutoriál</u></h1>
+            <p class="game_text">V tomto tutoriálu si napragramujeme hru<a href="tetris_cz.html">Tetris.</a> <br>
+            <br>
+             Jedná se o klasickou hru tetris ovládanou šipkami pro pohyb a mezerníkem pro otočení tvaru<br></p>
+
+            <video controls loop id="init_video" width="980" height="1020">
+                <source src="videos/tetris_video.mp4" type="video/mp4">
+
+                Your browser does not support the video tag.
+            </video>
+            <p class="audio_notification_text">*video neobsahuje audio</p>
+
+            <p class="game_text">Hráč ovládá tvar pomocí šipek, šipka doprava pohne tvar doprava naopak šipka doleva pohne tvar doleva, šipka dólu zvětší rychlost tvaru směrem dólu. Hra se postupně zrychluje.<br>
+                Můžete si vypnout nebo zapnout hudbu.</p>
+
+            <a class="btn btn-success btn-lg back_button" href="https://github.com/maxim-bazant/tetris/blob/master/Game.py" role="button">Přejít na tutoriál</a>
+
         </div>
         <footer>
-            <div class="footer sticky-footer">
+            <div class="footer">
                 <p>© maxcode.cz. All Rights Reserved</p>
             </div>
         </footer>
